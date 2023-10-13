@@ -15,5 +15,5 @@ def generate_md5_hash(text):
 
 # Example usage
 password = input()
-secure_hash = generate_md5_hash(input_text)
-print("Secure Hash:", md5_hash)
+secure_hash = generate_md5_hash(password)
+print("Secure Hash:",secure_hash)
